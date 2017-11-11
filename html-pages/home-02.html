@@ -1,14 +1,14 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Sign Up 1</title>
+    <title>Dashboard 01</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link href="../css/style.css" rel="stylesheet">
+    <link href="../css/dashboard-01.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
   </head>
   <body>
@@ -19,7 +19,7 @@
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="main-logo">
-                            <img src="../images/logo.png" alt="logo" />
+                            <img src="../images/logo-spread.png" alt="logo" />
                         </div>
                     </div>
                     <div class="col-lg-4">
@@ -28,7 +28,7 @@
                                 <input type="text" id="padding" class="form-control"  placeholder="Find anything" aria-label="Text input with segmented button dropdown">
                                 <div class="input-group-btn">
                                     <!-- <button type="button" class="btn btn-secondary">Action</button> -->
-                                    <button type="button" class="btn btn-secondary dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button id="border-rad" type="button" class="btn btn-secondary dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     <!-- <span id="filter-icon" class="sr-only">Toggle Dropdown</span> -->
                                     </button>
                                     <div class="dropdown-menu dropdown-menu-right">
@@ -42,8 +42,16 @@
                     </div>
                     <div class="col-lg-4">
                         <div class="login-buttons">
-                            <div class="signup-login">
-                                <a href="#">LOGIN</a><span class="or-span">or</span><a href="#">SIGN UP</a>         
+                            <div class="top-login-btns">
+                                <a class="login-stack" href="#">
+                                    <img src="../images/Table.png" alt="Table icon">
+                                </a>
+                                <a class="login-notification" href="#">
+                                    <img src="../images/Notification.png" alt="Notifications icon">
+                                </a>       
+                                <a class="login-profile" href="#">
+                                    <img src="../images/Profile.svg" alt="Profile icon">                                        
+                                </a>
                             </div>                   
                         </div>
                     </div>
@@ -57,8 +65,8 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="join-text">
-                            <h3>Join now</h3>
-                            <p>Discover and contribute to the community of data lovers.</p>
+                            <h3 class="account-title">Account</h3>
+                            <p>Manage your account and wallet. Invite friends and receive 20 tokens (<a class="invite-tag" href="#">you invited 10 so far</a>)</p>
                         </div>
                     </div>
                 </div>
@@ -68,37 +76,52 @@
                             <div class="body-form">
                                 <form>
                                     <div class="form-group">
-                                            <label for="exampleInputName1">YOUR NAME</label>
-                                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                                            <small id="emailHelp" class="form-text text-muted">We’re big on real names around here, so people know who’s who</small>
-                                        </div>
-                                    <div class="form-group">
-                                        <label for="exampleInputEmail1">EMAIL</label>
-                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                        <p class="profile-title">PROFILE PHOTO</p>                                            
+                                        <div class="profile-edits">
+                                            <img src="../images/Profile.svg" alt="Profile Image">
+                                            <button id="replace-photo" type="button" class="btn btn-link">REPLACE PHOTO</button>
+                                            <span class="no-file-select">NO FILE CHOSEN</span>
+                                            <button id="remove-photo" type="button" class="btn btn-link">REMOVE CURRENT PHOTO</button>   
+                                        </div>                                     
                                     </div>
                                     <div class="form-group">
-                                        <label for="exampleInputPassword1">PASSWORD</label>
-                                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="••••••••••">
+                                        <label for="exampleInputName1">FULL NAME</label>
+                                        <input type="text" class="form-control" id="exampleInputName1" aria-describedby="name" placeholder="Benjamin Libor">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputName2">USERNAME</label>
+                                        <input type="text" class="form-control" id="exampleInputName2" aria-describedby="name" placeholder="https://spreadshare.co/@benjamin_libor">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputName3">TAGLINE</label>
+                                        <input type="text" class="form-control" id="exampleInputName3" aria-describedby="name" placeholder="Product & UI Designer from Berlin, Co-Creater of SpreadShare">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputName4">LOCATION</label>
+                                        <input type="text" class="form-control" id="exampleInputName4" aria-describedby="name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputName5">WEBSITE</label>
+                                        <input type="text" class="form-control" id="exampleInputName5" aria-describedby="name">
                                     </div>
                                 </form>
                             </div>
                             <div class="submit-area">
-                                <button type="submit" class="btn btn-link">LOGIN</button>                                    
-                                <button type="submit" id="btn-primary" class="btn btn-link">SIGN UP</button>
+                                <button type="submit" class="btn btn-primary">SUBMIT</button>                                    
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3">
                         <div class="action-buttons">
                             <div class="sign-in-up">
-                                <div class="sign-btn"><button type="button" id="btn-primary-light" class="btn btn-link active">SIGN UP</button></div>
-                                <div class="sign-btn"><button type="button" class="btn btn-link">SIGN IN</button></div>    
+                                <div class="sign-btn"><button type="button" id="btn-primary" class="btn btn-link">PERSONAL</button></div>
+                                <div class="sign-btn"><button type="button" class="btn btn-link">ACCOUNT</button></div>    
+                                <div class="sign-btn"><button type="button" class="btn btn-link">NOTIFICATIONS</button></div>    
+                                <div class="sign-btn"><button type="button" class="btn btn-link">CONNECT ACCOUNTS</button></div>    
+                                <div class="sign-btn"><button type="button" class="btn btn-link">WALLET</button></div>    
+                                <div class="sign-btn"><button type="button" class="btn btn-link">INVITE</button></div>    
+                                
                             </div>
-                            <p class="or-tag">OR</p>
-                            <div class="sign-in-up">
-                                <div class="sign-btn"><button type="button" id="facebook" class="btn btn-link">USE FACEBOOK</button></div>
-                                <div class="sign-btn"><button type="button" id="twitter" class="btn btn-link">USE TWITTER</button></div>    
-                            </div>                            
                         </div>
                     </div>
                 </div>
@@ -110,7 +133,7 @@
         <div id="footer">
             <div id="footer-main-links" class="container">
                 <div class="footer-logo">                            
-                    <img src="../images/footer-logo.png" alt="footer logo" />
+                    <img src="../images/footer-logo-spread.png" alt="footer logo" />
                 </div>                
                 <div class="row">
                     <div class="col-lg-6">

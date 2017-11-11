@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="15" height="12" viewBox="0 0 15 12">
-  <g fill="none" fill-rule="evenodd" stroke="#6A7C94">
+<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 12">
+  <g fill="none" fill-rule="evenodd" stroke="#979797">
     <g transform="translate(1 3)" stroke-linecap="square">
       <path d="M.27373675e-13 1.12712851L13.0190697 1.12712851M.27373675e-13 3.38138553L13.0190697 3.38138553M.27373675e-13 5.63564255L13.0190697 5.63564255"/>
     </g>
     <path d="M4.11861447,0.5 L4.11861447,10.5" stroke-linecap="square"/>
-    <rect width="13.653" height="10.271" x=".5" y=".5" rx="2"/>
+    <rect width="13.653" height="10.271" x=".5" y=".5" rx="0.5"/>
   </g>
 </svg>

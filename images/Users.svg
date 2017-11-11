@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="15" height="14" viewBox="0 0 15 14" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <rect id="a" width="9.175" height="6.412" x="5.81" y="3.386" rx="2"/>
+    <rect id="b" width="10.146" height="7.091" x="3.079" y="4.389" rx="2"/>
+    <rect id="c" width="10.611" height="7.416" x=".756" y="5.431" rx="2"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(0 1)">
+    <use fill="#6A7C94" xlink:href="#a"/>
+    <rect width="8.175" height="5.412" x="6.31" y="3.886" stroke="#F2F2F8" rx="2"/>
+    <ellipse cx="10.338" cy="2.208" fill="#6A7C94" stroke="#F2F2F8" rx="2.058" ry="1.993"/>
+    <use fill="#6A7C94" xlink:href="#b"/>
+    <rect width="9.146" height="6.091" x="3.579" y="4.889" stroke="#F2F2F8" rx="2"/>
+    <ellipse cx="8.086" cy="3.085" fill="#6A7C94" stroke="#F2F2F8" rx="2.276" ry="2.204"/>
+    <g>
+      <use fill="#6A7C94" xlink:href="#c"/>
+      <rect width="9.611" height="6.416" x="1.256" y="5.931" stroke="#F2F2F8" rx="2"/>
+    </g>
+    <ellipse cx="5.993" cy="4.068" fill="#6A7C94" stroke="#F2F2F8" rx="2.38" ry="2.305"/>
+  </g>
+</svg>

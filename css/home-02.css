@@ -1,0 +1,193 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+p h6 a{
+    font-size: 15px;    
+}
+#main-body {
+    background-color: #F2F2F8;          
+}
+#header {
+    padding: 20px 0 20px 0;
+    box-shadow: 1px 0px 29px #888888;
+    background-color: #fff;    
+}
+#body{
+    padding: 40px 0 80px 0;
+}
+#footer {
+    padding: 40px 0 40px 0;
+    background-color: #fff;
+}
+.search-field {
+    padding: 30px 0 20px 0;    
+}
+.login-buttons {
+    text-align: right;
+    padding: 37px 0 20px 0;
+}
+.or-span {
+    padding: 0 4px 0 4px;
+    color: #7CCEA5;   
+}
+.signup-login {
+    background: #24AE69;
+    display: initial;
+    padding: 10px 22px;
+    border-radius: 3px;
+    font-size: 15px;
+}
+.signup-login a{
+    color: #fff;
+}
+.signup-login a:hover{
+    color: #fff;
+}
+.join-text {
+    padding: 20px 0 30px 0;
+}
+.join-text h3{
+    color: #6A7C94;
+}
+.join-text p{
+    color: #6A7C94;
+}
+.footer-logo p{
+    color: #6A7C94;
+}
+#footer-links {
+    text-align: right;
+}
+#footer-links h6 {
+    color: #B1BBC7;
+    margin-bottom: 20px;
+    font-size: 15px;    
+}
+#footer-links a {
+    color: #6A7C94;
+    font-size: 15px;    
+}
+#copyright-footer {
+    border-top: 2px solid #F8F8FC;
+    padding-top: 20px;
+}
+#copyright-footer p {
+    font-size: 13px;
+    color: #6A7C94;
+}
+#copyright-footer a {
+    font-size: 13px;
+    color: #6A7C94;
+}
+#footer-main-links {
+    padding-bottom: 40px;
+}
+.footer-logo {
+    padding-bottom: 30px;
+}
+.footer-main-text h5{
+    color: #6A7C94; 
+    font-size: 15px;    
+}
+.footer-main-text p {
+    color: #6A7C94;
+    font-size: 15px;    
+}
+.sign-in-up {
+    background: #fff;
+    display: inherit;
+    padding: 20px;
+    border-radius: 3px;
+}
+.sign-btn button {
+    width: 100%;
+    text-align: left;
+}
+.sign-btn {
+    padding: 5px 0 5px 0;    
+}
+.or-tag {
+    text-align: center;
+    padding: 20px 0 20px 0;
+    margin: 0;
+    font-size: 15px;    
+}
+.sign-in-up button {
+    color: #9FADC2;
+    text-decoration: none;
+    font-size: 15px;    
+}
+.sign-in-up button:hover {
+    color: #77879E;
+    text-decoration: none;
+    background: #F2F2F8;
+    border-radius: 3px;    
+}
+.body-form {
+    background: #fff;
+    display: inherit;
+    padding: 20px;
+    border-radius: 3px;
+}
+.submit-area {
+    background: #F8F8FB;
+    padding: 10px;
+    text-align: right;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}        
+.submit-area button:hover {
+    background: #24AE69;
+    color: #FFF;
+    border: none;
+    text-decoration: none;
+}
+.submit-area button {
+    color: #B1BBC7;
+    border: none;
+    text-decoration: none;
+    font-size: 15px;    
+}
+#resend {
+    background:#24AE69;
+}
+.form-group {
+    padding: 10px 0 10px 0;
+}
+.form-group label {
+    color: #B1BBC7;
+}
+.form-group input {
+    background: #F2F2F8;
+    border-radius: 4px;
+    border: 0;
+}
+#emailHelp {
+    color: #B1BBC7;    
+}
+.input-group-btn {
+    padding: 0 15px 0 15px;
+}
+.input-group-btn button {
+    border-radius: 0;
+    background: #F2F2F8; 
+    color: black;
+    border: 0;
+    background-image: url("../images/Filter.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;    
+}
+.search-field input {
+    background: #F2F2F8;
+    border: 0;
+    border-radius: 3px;
+}
+.input-group input {
+    background-image: url("../images/Search.svg");
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 25px;
+    background-position: left 10px center;
+    padding-left: 35px;
+}

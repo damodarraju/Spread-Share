@@ -9,7 +9,7 @@ p h6 a{
 }
 #header {
     padding: 20px 0 20px 0;
-    box-shadow: 0 0px 20px #6d7b92;
+    box-shadow: 0 0px 20px #adb3bd;
     background-color: #fff;    
 }
 #body{
@@ -102,7 +102,7 @@ p h6 a{
     background: #fff;
     display: inherit;
     padding: 20px;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 .sign-btn button {
     width: 100%;
@@ -132,12 +132,12 @@ p h6 a{
 .body-form {
     background: #fff;
     display: inherit;
-    padding: 20px;
-    border-radius: 3px;
+    padding: 20px 80px 20px 20px;
+    border-radius: 5px;
 }
 .submit-area {
     background: #F8F8FB;
-    padding: 10px;
+    padding: 10px 80px 10px 10px;
     text-align: right;
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;

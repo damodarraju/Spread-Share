@@ -9,7 +9,7 @@ p h6 a{
 }
 #header {
     padding: 20px 0 20px 0;
-    box-shadow: 1px 0px 29px #888888;
+    box-shadow: 0 0px 20px #adb3bd;
     background-color: #fff;    
 }
 #body{
@@ -33,7 +33,7 @@ p h6 a{
 .signup-login {
     background: #24AE69;
     display: initial;
-    padding: 10px 22px;
+    padding: 10px 15px;
     border-radius: 3px;
     font-size: 15px;
 }
@@ -97,7 +97,7 @@ p h6 a{
     background: #fff;
     display: inherit;
     padding: 20px;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 .sign-btn button {
     width: 100%;

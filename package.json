@@ -1,0 +1,17 @@
+{
+  "name": "spreadshare",
+  "version": "1.0,0",
+  "description": "Web Design pages for Spread Share",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-uglify": "^3.0.0",
+    "node-sass": "^4.6.1",
+    "uglifycss": "0.0.27"
+  },
+  "main": "index.js",
+  "author": "Raju Gundu",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp-sass": "^3.1.0"
+  }
+}

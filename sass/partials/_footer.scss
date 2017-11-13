@@ -1,0 +1,35 @@
+$footer-primary-color: #6A7C94;
+
+#footer {
+    padding: 40px 0 40px 0;
+    background-color: #fff;
+}
+#footer-main-links {
+    padding-bottom: 40px;
+}
+.footer-logo {
+    padding-bottom: 10px;
+}
+.footer-logo img {
+    width: 200px;
+}
+.footer-main-text h5 {
+    color: $footer-primary-color;
+    font-size: 15px;
+}
+.footer-main-text p {
+    color: $footer-primary-color;
+    font-size: 15px;
+}
+#footer-links h6 {
+    color: #B1BBC7;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+#footer-links a {
+    color: $footer-primary-color;
+    font-size: 15px;
+}
+.footer-logo p{
+    color: $footer-primary-color;
+}

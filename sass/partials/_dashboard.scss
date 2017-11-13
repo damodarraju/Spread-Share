@@ -1,0 +1,74 @@
+.top-login-btns {
+    padding: 0;
+    line-height: 80px;
+}
+.top-login-btns a {
+    text-decoration: none;
+    padding: 0 8px 0 8px;
+}
+.top-login-btns a:hover {
+    text-decoration: none;
+}
+.login-stack img {
+    width: 34px;
+}
+.login-notification img {
+    width: 34px;
+}
+.invite-tag {
+    color: #6d7c94;
+    text-decoration: underline;
+}
+.invite-tag:hover {
+    color: #38b172;
+    text-decoration: underline;
+}
+.profile-title {
+    color: #B1BBC7;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+#replace-photo {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 15px;
+    background: #6D7B92;
+}
+#replace-photo:hover {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 15px;
+    background: #dee0e5;
+}
+.no-file-select {
+    padding: 0 20px 0 20px;
+    color: #6a7c94;
+}
+#remove-photo {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 15px;
+    background: #DEE0E6;
+    float: right;
+    margin-top: 6px;
+}
+#remove-photo:hover {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 15px;
+    background: #6D7B92;
+    float: right;
+    margin-top: 6px;
+}
+.sign-in-up button {
+    color: #6A7C94;
+    text-decoration: none;
+    font-size: 15px;
+    background: #DEE0E6;
+}
+.sign-in-up button:hover {
+    color: #ffffff;
+    text-decoration: none;
+    background: #37b271;
+    border-radius: 3px;
+}

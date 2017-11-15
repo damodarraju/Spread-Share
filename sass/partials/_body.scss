@@ -1,0 +1,25 @@
+.body-topics {
+    display: block;    
+}
+.topics {
+    margin: 10px 0 15px 0;    
+}
+#topic{
+    background-image: url(../../images/body-background.svg);
+    display: inline-block;
+    padding: 30px 66px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 6px;
+    background-size: cover;
+    color: white;
+}
+#topic:hover{
+    text-decoration: none;
+    background-color: #39b072;
+    background-image: none;
+}
+.light-join-text {
+    color: #B1BBC8;
+    font-weight: 300;
+}

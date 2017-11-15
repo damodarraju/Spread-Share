@@ -12,10 +12,14 @@ p h6 a{
     background-color: #F2F2F8;          
 }
 #header {
-    padding: 20px 0 20px 0;
+    padding: 20px 20px;
     box-shadow: 0 0px 20px #adb3bd;
     background-color: #fff;    
-}    
+} 
+.container-fluid {
+    padding-right: 30px;
+    padding-left: 30px;
+}   
 .main-logo img {
     width: 200px;
     padding-top: 20px
@@ -46,7 +50,8 @@ p h6 a{
 }
 .login-buttons {
     text-align: right;
-    line-height: 80px;    
+    line-height: 80px;
+    margin-top: 5px;    
 }
 .signup-login {
     background-color: #24AE69;

@@ -1,7 +1,7 @@
 $footer-primary-color: #6A7C94;
 
 #footer {
-    padding: 40px 0 40px 0;
+    padding: 40px 20px;
     background-color: #fff;
 }
 #footer-main-links {
@@ -12,6 +12,7 @@ $footer-primary-color: #6A7C94;
 }
 .footer-logo img {
     width: 200px;
+    padding-bottom: 25px;
 }
 .footer-main-text h5 {
     color: $footer-primary-color;
